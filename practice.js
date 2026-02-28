@@ -82,3 +82,11 @@ console.log(dinJabe); // output = 120 days
 
 const monthJabe = dinJabe / 30; // becuse 1 month = 30 days. output = 4 month
 console.log(monthJabe);
+
+//practice 1 page: 50
+let gione = 'phone';
+console.log(typeof gione);
+
+//practice 2
+let learning = true;
+console.log(typeof learning);
