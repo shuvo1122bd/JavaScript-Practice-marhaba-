@@ -90,3 +90,70 @@ console.log(typeof gione);
 //practice 2
 let learning = true;
 console.log(typeof learning);
+
+//3
+let temperature = 102.5;
+console.log(typeof temperature);
+//practice 1-7 page no: 52/53 topic = changing variable value
+let age = 23;
+age = 22;
+console.log(age);
+
+let pocketMoney = 500;
+pocketMoney = 150;
+console.log(pocketMoney);
+
+let studyTime = 4; //hour
+studyTime = 0;
+console.log(studyTime);
+
+let friendCount = 3;
+friendCount = 1;
+console.log(friendCount);
+
+let phonePrice = 25000;
+phonePrice = 12000;
+console.log(phonePrice);
+
+let chairCount = 40;
+chairCount = 38;
+chairCount = 32;
+console.log(chairCount);
+
+let playTime = 3;
+playTime = 0;
+console.log(playTime);
+
+//practice 1-7 page no: 68 topic - parseInt
+let numBer = parseInt('20');
+console.log(numBer + 10);
+
+let secNumber = parseInt(3.14159); // if i want purno-songkha
+console.log(secNumber);
+
+let demoName = parseInt('premikBoy');
+console.log(demoName);
+
+let fnumBer = 3.456;
+let snumBer = 2.789;
+let totAl = fnumBer + snumBer;
+let totalNumBer = parseFloat(totAl.toFixed(2)); // if i want all number including bongnangsho and .toFixed (specific) for how many number i want after (.) this
+console.log(totalNumBer);
+
+let unumBer = '56.78';
+let onumBer = '12.34';
+
+// let tnumBer = parseInt(unumBer) + parseInt(onumBer); //for removing extra .number
+let tnumBer = parseFloat(unumBer) + parseFloat(onumBer); // full Number
+console.log(tnumBer);
+
+let rNumber = '10.5678';
+let iNUmber = '5.4321';
+
+let riNUmber = parseFloat(rNumber) + parseFloat(iNUmber);
+let mNumber = riNUmber.toFixed(1); //dosomik er por 1 gor
+console.log(mNumber);
+
+let bNumber = parseFloat('42.45689754');
+let b3Number = bNumber.toFixed(3);
+console.log(b3Number);
