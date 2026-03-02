@@ -83,18 +83,16 @@ console.log(dinJabe); // output = 120 days
 const monthJabe = dinJabe / 30; // becuse 1 month = 30 days. output = 4 month
 console.log(monthJabe);
 
-//practice 1 page: 50
+//practice 2page: 50
 let gione = 'phone';
 console.log(typeof gione);
 
-//practice 2
 let learning = true;
 console.log(typeof learning);
 
-//3
 let temperature = 102.5;
 console.log(typeof temperature);
-//practice 1-7 page no: 52/53 topic = changing variable value
+//practice 3 age no: 52/53 topic = changing variable value
 let age = 23;
 age = 22;
 console.log(age);
@@ -124,7 +122,7 @@ let playTime = 3;
 playTime = 0;
 console.log(playTime);
 
-//practice 1-7 page no: 68 topic - parseInt
+//practice 4 page no: 68 topic - parseInt
 let numBer = parseInt('20');
 console.log(numBer + 10);
 
@@ -157,3 +155,109 @@ console.log(mNumber);
 let bNumber = parseFloat('42.45689754');
 let b3Number = bNumber.toFixed(3);
 console.log(b3Number);
+
+//practice 5 page no: 73  topic : comparison operator
+let fMoney = '50';
+console.log(50 == fMoney);
+console.log(50 === fMoney);
+console.log('JavScript' == 'JavScript'); //Because these two data type are same. "" and '' is same. doesn't matter.
+console.log('JavaScript' === 'JavaScript');
+console.log('apple' == 'apple');
+console.log('apple' === 'apple');
+console.log('test' == 'TEST');
+console.log('test' === 'TEST'); // javaScript is case-sensitive
+
+let variableX = 15;
+let variableY = '20';
+console.log(variableX != variableY); //  != and !== is not-equal-to
+console.log(variableX !== variableY);
+
+let variableA = 'hello'; // string must have quota "" , ''
+let variableB = 'Hello';
+console.log(variableA == variableB);
+console.log(variableA === variableB);
+
+//practice 6 page no: 80 topic : if-else
+let age2a = 20;
+let height = 65; //in CM
+
+if (age > 18 && height > 60) {
+  // && = AND, all condition should be meet
+  console.log('Gari telbe');
+} else {
+  console.log('Gari te bose thakbe');
+}
+
+let mathScore = 75;
+let englishScore = 86;
+
+if (mathScore > 80 || englishScore > 85) {
+  console.log("You're eligible");
+} else {
+  console.log("You're ready for biya");
+}
+
+let GPA = 5;
+let monthlyIncome = 9999;
+
+if (GPA === 5 && monthlyIncome < 10000) {
+  console.log("you're eligible for scholarship");
+} else {
+  console.log('not eligile for scholarship');
+}
+
+let candidateAge = 25;
+let experience = 3;
+
+if (candidateAge < 30 && experience > 2) {
+  console.log('You can participate in job exam');
+} else {
+  console.log('You can not participate');
+}
+
+let dimAche = 13;
+let isChicken = false;
+
+if (dimAche > 12 || isChicken != true) {
+  //!= true and == false Is same
+  console.log('i will cook dimkurma');
+} else {
+  console.log('i will have bread and banana');
+}
+
+let bodytemperature = 101; //degree
+let isCough = false;
+
+if (bodytemperature > 100 || isCough == true) {
+  console.log('will go to the doctor');
+} else {
+  console.log('sleep under the blanket');
+}
+
+let attendInClass = 81; //in percentage
+let homeWorkDone = true;
+
+if (attendInClass > 80 && homeWorkDone == true) {
+  console.log("you're passed");
+} else {
+  console.log('Auto fail');
+}
+
+let electricityOn = false;
+let mobileCharge = false;
+
+if (electricityOn != true && mobileCharge != true) {
+  // == false, is same as != true
+  console.log('going to the study');
+} else {
+  console.log('will play video game');
+}
+
+let shirtPrice = 1001;
+let isCoupon = true;
+
+if (shirtPrice > 1000 && isCoupon == true) {
+  console.log('Congratulation, you will get 20% discount');
+} else {
+  console.log('sorry, next time');
+}
