@@ -261,3 +261,49 @@ if (shirtPrice > 1000 && isCoupon == true) {
 } else {
   console.log('sorry, next time');
 }
+
+//discount (if-else)
+let price = 4000;
+
+if (price >= 5000) {
+  //if price high or equal to 5000,
+  const discount = (price / 100) * 10; //price will first calculated here,
+  const pay = price - discount; // how much money need to pay after discount,
+  console.log(pay);
+} else {
+  console.log(price); // if price less than 5000 then full price money should pay.
+}
+// discount in two condition. (if, else if, else), new thing = else if
+const priice = 1500;
+
+if (priice >= 5000) {
+  const discount2 = (priice / 100) * 10;
+  const pay2 = priice - discount2;
+  console.log(pay2); //'10% off'
+} else if (priice >= 2500) {
+  const discount2 = (priice / 100) * 5;
+  const pay2 = priice - discount2;
+  console.log(pay2); //'5% off'
+} else if (priice >= 1000) {
+  // I can add multiple else if condition
+  const discount2 = (priice / 100) * 2;
+  const pay2 = priice - discount2;
+  console.log(pay2); //'2% off'
+} else {
+  console.log(priice); //'no discount'
+}
+
+//practice -7 page no : 83 topic : dicount if,else and else if
+let amount = 3500;
+
+if (amount >= 6000) {
+  const discount3 = (amount / 100) * 15;
+  const pay3 = amount - discount3;
+  console.log(pay3); // 15% discount
+} else if (amount >= 3000) {
+  const discount3 = (amount / 100) * 5;
+  const pay3 = amount - discount3;
+  console.log(pay3); //5% discount
+} else {
+  console.log(amount); // no discount
+}
