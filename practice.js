@@ -299,11 +299,74 @@ let amount = 3500;
 if (amount >= 6000) {
   const discount3 = (amount / 100) * 15;
   const pay3 = amount - discount3;
-  console.log(pay3); // 15% discount
+  console.log(pay3); // 15% discount  //note : order is very important here. first i put "5% discount" above the '15% discount'. but 6000 is bigger than 3000. it caused me a serious calculation problem.
 } else if (amount >= 3000) {
   const discount3 = (amount / 100) * 5;
   const pay3 = amount - discount3;
   console.log(pay3); //5% discount
 } else {
   console.log(amount); // no discount
+}
+//2
+let age1 = 61; //age
+let bill = 1000;
+
+if (age1 < 12) {
+  console.log('you will eat free');
+} else if (age1 > 60) {
+  const discount4 = (bill / 100) * 50;
+  const pay4 = bill - discount4;
+  console.log(pay4);
+} else {
+  console.log(bill);
+}
+//3
+let balance = 900;
+
+if (balance < 1000) {
+  console.log('deposite your money');
+} else if (balance >= 1000 && balance <= 5000) {
+  console.log('enjoy bindass life');
+} else {
+  console.log(' you rich,,, now, you should marry');
+}
+//4
+let mark = 80;
+
+if (mark < 50) {
+  console.log('Fail');
+} else if (mark >= 50 && mark <= 80) {
+  console.log('pass');
+} else {
+  console.log('A+');
+}
+//5
+let pageCount = 100;
+
+if (pageCount < 100) {
+  console.log('small-book');
+} else if (pageCount >= 100 && pageCount <= 500) {
+  console.log('mid-size book');
+} else {
+  console.log('heart-attack size book');
+}
+//6
+let temperatureDegree = 21;
+
+if (temperatureDegree < 0) {
+  console.log('ice');
+} else if (temperatureDegree >= 0 && temperatureDegree <= 20) {
+  console.log('cool cool');
+} else {
+  console.log('Hot Hot');
+}
+//7
+let playerLevel = 55;
+
+if (playerLevel < 10) {
+  console.log('novice');
+} else if (playerLevel >= 10 && playerLevel <= 50) {
+  console.log('Expert');
+} else {
+  console.log('Pro Gamer');
 }
