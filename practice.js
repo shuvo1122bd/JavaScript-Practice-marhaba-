@@ -370,3 +370,120 @@ if (playerLevel < 10) {
 } else {
   console.log('Pro Gamer');
 }
+
+//practice Nested if-else
+//1
+let isInvited = true;
+let pocketMOney = 900;
+
+if (isInvited == true) {
+  console.log('i will go to the birthday party');
+
+  if (pocketMOney >= 1000) {
+    console.log('will buy a gift');
+  } else {
+    console.log('Going to empty hand');
+  }
+} else {
+  console.log('Unfriend');
+}
+//2
+
+let haveTea = true;
+let biscuit = false;
+
+if (haveTea == true) {
+  if (biscuit == true) {
+    console.log('Both are Ready');
+  } else {
+    console.log('tea is ready');
+  }
+} else {
+  console.log('watch drama');
+}
+//3
+let userActive = false;
+let premium = true;
+
+if (userActive == true) {
+  if (premium == true) {
+    console.log('Show premium feature');
+  } else {
+    console.log('Use free version');
+  }
+} else {
+  console.log('Not active');
+}
+//4
+let isFridgeHasFood = false;
+let foodDeliveryAppWorking = false;
+
+if (isFridgeHasFood == true) {
+  console.log('i will reheat the food');
+} else if (foodDeliveryAppWorking == true) {
+  console.log('order the food');
+} else {
+  console.log('I am fasting today');
+}
+//5
+let guestCount = 90;
+let comeWithGift = false;
+
+if (guestCount >= 100) {
+  if (comeWithGift == true) {
+    console.log("let's party all night");
+  } else {
+    console.log('Do not come without GIFT');
+  }
+} else {
+  console.log('i will party with myself');
+}
+
+//logical not(!)
+
+let poti = false;
+
+if (!poti) {
+  console.log('thik ache');
+} else {
+  console.log('hmm');
+}
+
+//ternary operator - practice
+//1
+let shopping = 5000;
+
+let cashBack = shopping >= 3000 ? '500 tk cashback' : 'no cashback';
+console.log(cashBack);
+//2
+let myAge = 10;
+
+let myType = myAge >= 15 ? 'teenager' : 'child';
+console.log(myType);
+
+let isLoggedIn = true;
+
+let logStatus = isLoggedIn ? 'Welcome Back' : 'Please login';
+console.log(logStatus);
+//3
+let tankFull = false;
+
+let checkTank = tankFull ? 'ready for a long drive' : 'Fill the tank';
+console.log(checkTank);
+//4
+let isPassed = false;
+
+let passStatus = isPassed
+  ? 'Party Time'
+  : 'i will do serious study in next semester';
+console.log(passStatus);
+
+let sunny = false;
+
+sunny === false ? console.log('Stay Home') : console.log('Do not stay Home');
+//7
+let expensive = false;
+
+expensive === false
+  ? console.log('i will buy this item')
+  : console.log('never');
