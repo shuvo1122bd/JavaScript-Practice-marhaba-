@@ -1,4 +1,4 @@
-/*
+
 //1 page 105
 let subject = ['english', 'politics', 'economics', 'statistics', 'biography'];
 
@@ -143,9 +143,97 @@ for (let tNum = 25; tNum < 75; tNum++){
   ySum = tNum + ySum;
 }
 console.log('totalSumNumber:', ySum);
-*/
+
+//1
 for (let i = 20; i < 50; i++){
   if (i % 7 == 0) {
     console.log(i);
   }
+}
+
+//2
+for (let opNumber = 40; opNumber <= 80; opNumber++) {
+  if (opNumber % 5 == 0 && opNumber % 7 == 0) {
+    console.log(opNumber);
+  }
+}
+  //3
+  let iSum = 0;
+  
+  for (let iNum = 1; iNum <= 40; iNum++){
+    if (iNum % 13 == 0) {
+      iSum = iSum + iNum;
+    }
+  }
+  console.log('totalSum:', iSum);
+ 
+//4
+for (let iProblem = 1; iProblem <= 50; iProblem = iProblem + 4){
+  console.log(iProblem);
+}
+ 
+//5
+
+for (let newNum = 0; newNum <= 100; newNum++){
+  if (newNum % 9 == 0 && newNum % 6 == 0) {
+    console.log(newNum);
+  }
+}
+
+//6
+let tiSum = 0;
+
+for (let jNum = 1; jNum < 50; jNum++){
+  if (jNum % 3 == 0 && jNum % 4 == 0) {
+    console.log(jNum);
+    tiSum = tiSum + jNum;
+  }
+}
+console.log('total :', tiSum);
+
+
+// break = loop will immediatly stop, continue = loop will skip this when console.log
+//1
+for (let iBre = 1; iBre <= 30; iBre++){
+  if (iBre > 15) {
+    break;
+  }
+  console.log(iBre);
+}
+//2
+for (let iBre7 = 1; iBre7 < 40; iBre7++){
+  if (iBre7 % 7 == 0) {
+    continue;
+  }
+  console.log(iBre7);
+}
+
+//3
+for (let conti = 1; conti <= 15; conti++){
+  if (conti == 9) {
+    continue;
+  }
+  console.log(conti);
+}
+//4
+for (let con2ti = 1; con2ti < 20; con2ti++){
+  if (con2ti == 12) {
+    continue;
+  }
+  console.log(con2ti);
+}
+//5
+for (let bi2bi = 1; bi2bi < 25; bi2bi++){
+  if (bi2bi % 3 == 0) {
+    continue;
+  }
+  console.log(bi2bi);
+}
+
+//6
+for (let boomNum = 91; boomNum < 120; boomNum++){
+  if (boomNum % 10 == 0) {
+    break;
+  }
+  console.log(boomNum);
 }
