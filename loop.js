@@ -1,3 +1,4 @@
+/*
 //1 page 105
 let subject = ['english', 'politics', 'economics', 'statistics', 'biography'];
 
@@ -57,21 +58,94 @@ while (num3 <= 100) {
   num3++;
 }
 
-// //4
-// let num4 = 1;
+//4
+let num4 = 1;
 
-// while (num4 <= 10) {
-//   console.log(num4);
-//   num4 = num4 * 3;
-//   num++;
-// }
-
-//5 
-let num5 = 10;
-
-while (num5 < 110) {
-  console.log(num5);
-  num5 = num5 * 2;
-  
+while (num4 <= 10) {
+  console.log(num4 * 3);
+  num4++;
 }
 
+//5 
+let num5 = 110;
+
+while (num5 < 120) {
+  console.log(num5 / 2);
+  num5++;
+} 
+
+
+//1 page 111
+let number1 = 5;
+let sum = 0;
+
+while (number1 < 15) {
+  // console.log(number1);
+  sum = number1 + sum;
+  number1++;
+  // console.log(sum); //if i want to see sum value everytime
+}
+console.log('Sum :', sum);
+
+//2
+let studentRoll = 1;
+let rollSum = 0;
+
+
+while (studentRoll <= 50) {
+  console.log(studentRoll);
+  rollSum = studentRoll + rollSum;
+  studentRoll++;
+}
+console.log('Sum:', rollSum);
+
+//3
+let num6 = 21;
+let numSum = 0;
+
+while (num6 < 50) {
+  numSum = num6 + numSum;
+  num6++;
+  console.log(numSum);
+}
+console.log('Sum:', numSum);
+
+//4
+let num7 = 20;
+let num7Sum = 0;
+
+while (num7 < 40) {
+  num7Sum = num7 + num7Sum;
+  num7++
+}
+console.log('Sum:', num7Sum);
+
+//1 topic = For loop
+
+for (let vari = 150; vari <= 170; vari++){
+  console.log(vari);
+}
+
+//2
+let roll2Sum = 0;
+
+for (let student2Roll = 31; student2Roll < 58; student2Roll++){
+  roll2Sum = student2Roll + roll2Sum;
+  console.log(roll2Sum);
+}
+console.log('RollSum:', roll2Sum);
+
+//3
+
+let ySum = 0;
+
+for (let tNum = 25; tNum < 75; tNum++){
+  ySum = tNum + ySum;
+}
+console.log('totalSumNumber:', ySum);
+*/
+for (let i = 20; i < 50; i++){
+  if (i % 7 == 0) {
+    console.log(i);
+  }
+}
